@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>3999becc-9689-4cb2-aa0f-5965dfafd305</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>phonebook.py</StartupFile>
+    <StartupFile>lvlup.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
