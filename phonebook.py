@@ -55,7 +55,7 @@ class PhoneBook:
 book = PhoneBook("contacts.json")
 
 while True:
-    command = input("Команда (найти, добавить, удалить, переименовать, список, выход): ").strip().casefold()
+    command = input("Команда (найти, добавить, удалить, переименовать, список, сколько, выход): ").strip().casefold()
 
     if command == "выход":
         break
@@ -85,6 +85,9 @@ while True:
 
     elif command == "список":
         book.show_all()
+
+    elif command == "сколько":
+        print(book.count())
 
     else:
         print("Неизвестная команда")
