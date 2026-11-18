@@ -41,7 +41,7 @@ class PhoneBook:
 
     def rename(self, old_name, new_name):
         if old_name not in self.contacts:
-            print('Такого контакта нету')
+            print('Такого контакта нет')
         elif old_name == new_name:
             print('Имена совпадают')
         elif new_name in self.contacts:
